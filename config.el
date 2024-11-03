@@ -38,6 +38,7 @@
 (pkg-load "undotree")
 (pkg-load "simplemdln")
 (pkg-load "multicursor")
+(pkg-load "mu4e")
 
 ;; Languages
 (lang-load "rust")
