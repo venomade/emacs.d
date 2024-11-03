@@ -38,3 +38,6 @@
 
 ;; Go back to old position on file open
 (save-place-mode 1)
+
+;; Disable Fringes
+(set-fringe-mode 0)

@@ -46,5 +46,5 @@
     (end-of-line))
   (newline-and-indent))
 
-(keymap-global-set "C-c o" 'vi-open-line-below)
-(keymap-global-set "C-c O" 'vi-open-line-above)
+(keymap-global-set "C-c O" 'vi-open-line-below)
+(keymap-global-set "C-c o" 'vi-open-line-above)

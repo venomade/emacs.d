@@ -26,3 +26,8 @@
 
 (keymap-global-set "C-c v" 'scroll-other-window)
 (keymap-global-set "C-c V" 'scroll-other-window-down)
+
+(keymap-global-set "C-c w n" 'other-window)
+(keymap-global-set "C-c w f" 'other-window)
+(keymap-global-set "C-c w p" (lambda () (interactive) (other-window -1)))
+(keymap-global-set "C-c w b" (lambda () (interactive) (other-window -1)))
