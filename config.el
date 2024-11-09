@@ -38,7 +38,10 @@
 (pkg-load "undotree")
 (pkg-load "simplemdln")
 (pkg-load "multicursor")
+(pkg-load "rainbow")
 
 ;; Languages
 (lang-load "rust")
 (lang-load "c-cpp")
+(lang-load "scheme")
+(lang-load "clojure")
